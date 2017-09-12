@@ -1,0 +1,14 @@
+selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH
+
+-> 프로젝트 폴더에 geckodricer.exe 복사하고 (혹은 다운로드 https://github.com/mozilla/geckodriver/releases)
+
+driver = webdriver.Firefox(executable_path=r'geckodriver.exe')
+
+selenium.common.exceptions.WebDriverException: Message: Unable to find a matching set of capabilities
+
+-> geckodriver와 firefox의 버전이 안맞아서 생김
+
+geckodriverv0.18.0 now recommends Firefox 53 and greater
+
+
+http://pythonstudy.xyz/python/article/404-%ED%8C%8C%EC%9D%B4%EC%8D%AC-Selenium-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0

@@ -1,0 +1,54 @@
+1504146233694	geckodriver	INFO	geckodriver 0.18.0
+1504146233708	geckodriver	INFO	Listening on 127.0.0.1:60354
+1504146235770	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504146237263	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1504146237748	Marionette	INFO	Enabled via --marionette
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\bspar\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504146239260	Marionette	INFO	Listening on port 60386
+1504146239281	Marionette	INFO	Listening on port 60386
+1504146239388	Marionette	WARN	TLS certificate errors will be ignored for this session
+1504146239425	Marionette	DEBUG	loaded listener.js
+1504146239451	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1504146240644	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1504146240645	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1504146241053	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241081	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241152	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241286	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241296	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241298	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146241656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1504146241656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1504146241656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483660"
+1504146241656	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1504146241657	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1504146241657	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1504146242330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://fast.elsevier.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1369847803000056"
+1504146242333	Marionette	DEBUG	Received DOM event "pageshow" for "http://fast.elsevier.demdex.net/dest5.html?d_nsid=0#http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1369847803000056"
+1504146242996	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146243064	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/S1369847803000056"
+1504146243303	Marionette	INFO	New connections will no longer be accepted
+04143403539	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.sciencedirect.com/science/article/pii/0968090X94900051"
+1504143403804	Marionette	INFO	New connections will no longer be accepted
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x8A0005,name=PLayerTransaction::Msg_NewCompositable) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0035,name=PCompositorBridge::Msg_PTextureConstructor) Channel error: cannot send/recv
+
+w" for "http://www.sciencedirect.com/science/article/pii/0968090X94900051"
+1504143081761	Marionette	INFO	New connections will no longer be accepted
+0000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+346
+[Child 14120] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
